@@ -1,0 +1,68 @@
+.background {
+    background-color: white;
+}
+.topSpace {
+    height: 85px;
+}
+.line {
+    height: 1px;
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+
+}
+.spaceAboveLogo {
+    height: 65px;
+}
+.spaceBeneathLogo {
+    height: 65px;
+}
+.logo{
+    font-family: Montserrat;
+    font-size  : 27px;
+    color: #9598A1;
+}
+.h3 {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Work Sans,sans-serif;
+    font-weight: 600;
+    line-height: 1.33;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+.p {
+    font-size: .875rem;
+    line-height: 1.88;
+    color: #2b3243;
+    font-weight: 300;
+    font-family: Montserrat-Light,sans-serif;
+
+}
+.iconbg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: inset 0 -3px 0 0 rgb(0 0 0 / 5%);
+    border: 0.8px solid #eaecef;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.endt {
+    color: #2b3243;
+    font-size: .75rem;
+    font-family: Montserrat-Light,sans-serif;
+    margin-bottom: 20px;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 1.43;
+    margin-top: 20px;
+}
+.endSpace {
+    height: 50px;
+}

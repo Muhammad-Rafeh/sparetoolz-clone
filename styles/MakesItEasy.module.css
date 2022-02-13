@@ -1,0 +1,67 @@
+.background{
+    background-image: linear-gradient( to bottom , #F7F7F7 , #E9ECF2);
+    border-radius:0 0 0 300px;
+    overflow: hidden;
+}
+.topSpace {
+    height: 146px;
+}
+.bookingPhone {
+    width:315px;
+     height:560px;
+     margin-right: 20px;
+     margin-top: 15px;;
+}
+.question {
+    text-align: center;
+    font-family: Montserrat-Light,sans-serif;
+    font-weight: 300;
+    color: #2b3243;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    line-height: 1.38;
+    font-size: 2rem;
+}
+.question span{
+    font-weight: 700;
+    color: #5985ff;
+    font-family: Montserrat , sans-serif;
+}
+
+.infoWrapper {
+  
+}
+.imgsBg {
+    height: 88px;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 3%);
+    border: 1px solid #eaecef;
+    background-color: #fff;
+    margin : 0 15px 15px 0;
+}
+.imgsBg img{
+    width:40px;
+    height:47px;
+}
+.heading {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.38;
+    margin-bottom: 5px;
+    font-family: Work Sans,sans-serif;
+}
+.data{
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.29;
+    color: #879196;
+    font-family: Work Sans,sans-serif;
+
+}
+@media screen and (max-width: 765px) {
+    .question {
+        font-size: 1.25rem;
+    line-height: 1.4;
+    padding-top: 0;
+    }
+}

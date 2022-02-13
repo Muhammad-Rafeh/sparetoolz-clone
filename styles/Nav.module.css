@@ -1,0 +1,143 @@
+.sticky {
+    background-color: white;
+}
+.navContainer {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 0 25px 0;
+    position: fixed;
+    transition: 0.3s;
+}
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:700px;
+}
+
+.navButtonAndCartWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navLogoWrapper {
+    margin-left: 20px;
+}
+.navLogo {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100; 
+    font-size: 17px;
+    color: #fff;
+}
+.navOptions {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100; 
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+    padding: 0 7px 0 7px;
+}
+.navButton {
+    padding: 16px 25px 16px 33px;
+    letter-spacing: 0;
+    margin-left: 20px;
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 5%), inset 0 -3px 0 0 rgb(0 0 0 / 15%);
+    border: 1px solid #189660;
+    color: #fff;
+    border-radius: 30px;
+    font-family: Montserrat , sans-serif;
+    background-color: #3dd694;
+    font-size: .75rem;
+    line-height: 1.25;
+}
+.navImgWrapper {
+    margin-right: 20px;
+    margin : 10px 5px 10px 20px ;
+    filter: brightness(0) invert(1);
+}
+
+.hamburger {
+   color: white;
+background-color: rgba(255, 0, 0, 0);
+border: none;
+}
+.hamburgerIcon {
+    height: 24px;
+    width: 24px;
+    margin-top: -2px;
+    display: none;
+}
+
+.dropDownContainer {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 5%), inset 0 -3px 0 0 rgb(0 0 0 / 15%);
+    padding-bottom: 30px;
+    /* display: none; */
+
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+}
+.dropDownLogo {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100; 
+    font-size: 20px;
+    color: #5985FF;
+}
+.closeDropdownIcon {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100; 
+    font-size: 20px;
+    color: #5985FF;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    
+}
+.dropDownOptions {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100; 
+    font-size: 1rem;
+    line-height: 2.63;
+    letter-spacing: .2px;
+    color: black;
+   
+    padding: 0 7px 0 7px;
+}
+.dropDownNavButton {
+    margin-top: 10px;
+    padding: 16px 35px 16px 43px;
+    letter-spacing: 0;
+    
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 5%), inset 0 -3px 0 0 rgb(0 0 0 / 15%);
+    border: 1px solid #189660;
+    color: #fff;
+    border-radius: 30px;
+    font-family: Montserrat , sans-serif;
+    background-color: #3dd694;
+    font-size: .75rem;
+    line-height: 1.25;
+}
+@media screen and (max-width: 765px) {
+    .navOptions{
+        display: none;
+
+    }
+    .navButton{
+        display: none;
+    }
+    .navButtonAndCartWrapper {
+        margin-left: auto;
+        margin-right: 20px;
+
+    }
+    .hamburgerIcon {
+        display: block;
+    }
+}

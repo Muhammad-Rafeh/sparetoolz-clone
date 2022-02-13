@@ -1,0 +1,228 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+.container{
+    display: block;
+    /* overflow: hidden; */
+    width: 100%;
+    
+}
+.questionWrapper{
+    padding-top: 125px;
+}
+.question {
+    text-align: center;
+    font-family: Montserrat-Light,sans-serif;
+    font-weight: 300;
+    color: #2b3243;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    line-height: 1.38;
+    font-size: 2rem;
+}
+.question span{
+    font-weight: 700;
+    color: #5985ff;
+    font-family: Montserrat , sans-serif;
+}
+
+.gridWrapper{
+    background-image: linear-gradient(to  right , #5365FF , #67C8FF);
+    max-height: 526px;
+    /* width: 80vw; */
+    margin-left: 23px;
+    margin-right: 23px;
+    border-radius: 20px;
+}
+.gridWrapperRenters{
+    background-image: linear-gradient(to  right , #67C8FF, #5365FF);
+    max-height: 526px;
+    /* width: 80vw; */
+    margin-left: 23px;
+    margin-right: 23px;
+    border-radius: 20px;
+}
+
+.toolOwnersHeading {
+    padding-top: 30px;
+    --font-body-bold-weight: bold;
+    color: white;
+    max-width: 310px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: 0 6px 10px rgb(75 89 255 / 25%);
+    font-weight: 700;
+    line-height: 1.38;
+    font-size: 2rem;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+}
+.toolOwnersP {
+    max-width: 310px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5px;
+    font-family: Montserrat-Light,sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.5px;
+ 
+    color: white;
+}
+.wrentchImage {
+    max-width: 310px;
+    height: 120px;
+    margin-top: 20px;
+    /* margin-left: -40px; */
+}
+.stepsWrapper{
+    overflow: hidden;
+    display: block;
+    padding : 0 30px 0 18px;
+    margin-top: 40px;
+    /* background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 0 0 rgb(0 0 0 / 5%);
+    margin-top: 40px;
+    max-width : 58vw;
+    margin-right: 30px;
+    min-height: 300px; */
+    height: fit-content;
+    /* margin-bottom: -30px; */
+}
+.stepsContent {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 0 0 rgb(0 0 0 / 5%);
+    width: 100%;
+    justify-content: flex-start !important;
+    align-items: center;
+    padding: 50px 40px 40px 40px;
+    
+    
+}
+.stepsContent div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: flex-start;
+
+    overflow: hidden;
+    margin-top: 0;
+    height: 250px;
+}
+.stepsCount{
+    margin-top: 0px;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    
+    width: 50px !important;
+    color: #5985FF;
+    font-weight: 600;
+    background-color: #E6EDFF;
+    border-radius: 50%;
+}
+.stepImg {
+    max-height: 80px !important;
+   height: auto;
+   margin-top: 20px;
+   
+}
+.stepImg1{
+    width: 73px;
+    height: 80px;
+}
+.stepImg2{
+    width: 52px;
+    height: 80px;
+}
+.stepImg3{
+    width: 55px;
+    height: 72px;
+}
+.stepImg4{
+    width: 80px;
+    height: 61px;
+}
+.stepDesc {   /* adjust min height via media queries */
+ padding : 30px 0 30px 0 ; 
+
+    font-family: Work Sans,sans-serif;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.29;
+    color: #444d50;
+    text-align: center;
+}
+.stepDesc3{
+    padding-top: 35px;
+}
+.stepDesc4 {
+    padding-top: 45px;
+}
+
+/* tool Renter css */
+
+.topSpace {
+    height: 90px;
+}
+
+@media screen and (max-width: 765px) {
+    .abc {
+        width: 100% !important;
+    }
+    .gridWrapper , .gridWrapperRenters{
+        margin-left: 10px;
+        margin-right: 10px;
+        max-height: 700px;
+    }
+    .wrentchImage {
+        display: none;
+    }
+    .toolOwnersHeading {
+        font-size: 1rem;
+        line-height: 1.13;
+    }
+    .toolOwnersP{
+        /* max-width: 100%; */
+        font-size: .875rem;
+    line-height: 1.29;
+    font-family: Work Sans,sans-serif;
+    font-weight: 500;
+    
+
+    }
+    .stepsWrapper{
+        /* margin-left: 20px; */
+        margin-left: 18px;
+        padding-left: 30px;
+        width: 100%;
+        /* margin-top: -30px; */
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+           
+    }
+    .stepsContent{
+        height: 580px;
+        padding-top: 0;
+    }
+    .stepsContent div {
+        height: fit-content;
+    }
+    .stepImg {
+        max-height: 67px !important;
+        margin-right: 20px;
+    }
+    .stepImg2 ,.stepImg3{
+        margin-right: 30px;
+    }
+    .stepsCount{
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,218 @@
+@font-face{
+  font-family: "Montserra";
+  src : local('AzeretMono'), url(../fonts/Montserrat-Medium.woff) format('woff');
+}
+@font-face{
+  font-family: "Montserrat-SemiBold";
+  src : local('AzeretMono'), url(../fonts/Montserrat-SemiBold.woff) format('woff');
+}
+@font-face{
+  font-family: "Montserrat";
+  src : local('AzeretMono'), url(../fonts/Montserrat-Bold.woff) format('woff');
+}
+@font-face{
+  font-family: "Montserrat-Light";
+  src : local('AzeretMono'), url(../fonts/Montserrat-Light.woff) format('woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.header-nav {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  --blue: #5985ff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #ff5774;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #3dd694;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #5985ff;
+  --secondary: #3dd694;
+  --success: #3dd694;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #fafafa;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Sinkin Sans",sans-serif;
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --color-accent: #5985ff;
+  --color-body-text: #444d50;
+  --color-main-background: #f7f7f7;
+  --color-collection-bg: #eaecef;
+  --color-header-bg: #5985ff;
+  --color-header-link: #ffffff;
+  --color-header-bg-sticky: #ffffff;
+  --color-header-link-sticky: #2b3243;
+  --color-border: #c8cacf;
+  --color-footer-bg: #ffffff;
+  --color-footer-link: #2b3243;
+  --color-footer-social-link: #7c808b;
+  --cornflower: #5985ff;
+  --charcoal-grey: #444d50;
+  --pale-grey: #f5f7fa;
+  --dark: #2b3243;
+  --blue-grey: #879196;
+  --sky-blue: #65beff;
+  --light-blue-grey: #c8cacf;
+  --aqua-marine: #1ee3bb;
+  --weird-green: #3dd694;
+  --grapefruit: #ff6659;
+  --lightish-blue: #5264ff;
+  --sky-blue-two: #67c9ff;
+  --font-heading: Montserrat, sans-serif;
+  --font-body: "Work Sans", sans-serif;
+  --font-body-weight: 400;
+  --font-body-style: normal;
+  --font-body-bold-weight: bold;
+  font-family: Work Sans,sans-serif;
+  font-weight: 400;
+  color: #212121;
+  text-align: left;
+  font-size: .875rem;
+  line-height: 1.43;
+  box-sizing: border-box;
+  float: right;
+  display: block;
+}
+.globalContainer {
+  background-color: #F7F7F7;
+  /* text-align:center;   
+  width:100vw;
+  max-width : 1280px;
+  margin: auto;  */
+}
+.sticky{
+  background-color: white;
+  border-radius:  0px 0px 15px 15px;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important; 
+  transition: 0.3s;
+  box-shadow: 0 3px 0 0 rgb(0 0 0 / 15%);
+  
+}
+ .navbar-option-make-black {
+  color: black !important;
+}
+
+.navOptions {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100; 
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.4;
+  padding: 0 7px 0 7px;
+}
+
+.landing-panel-phone-img-size {
+  display: block!important;
+  width: 50vw !important;
+  position: absolute;
+  max-width: 600px;
+  height: auto;
+  padding-top: 25px;
+ 
+  left: 45vw;
+
+
+}
+.phone-image {
+  width: 100%;
+  position: absolute;
+  /* width: 100%;
+  height: 100%;
+  position: absolute !important; */
+  
+}
+
+.container {
+  max-width: 1280px !important;
+  margin: auto;
+}
+
+.dropdownVisible {
+  display: block !important;
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.dropdownNotVisible{
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+  
+  
+@keyframes slide-in {
+  100% { transform: translateY(0%); }
+}
+
+
+  
+@keyframes slide-out {
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-100%); }
+}
+
+
+
+@media screen and (max-width: 765px) {
+  .landing-panel-phone-img-size {
+    width : 40vw !important;
+    position: relative;
+    left: -5vw;
+    align-self: center;
+    top: -15vh;
+  }
+  .navOptions{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .landing-panel-phone-img-size {
+    width : 40vw !important;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .landing-panel-phone-img-size {
+    width : 30vw !important;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .landing-panel-phone-img-size {
+    width : 20vw !important;
+    left: 60vw;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .landing-panel-phone-img-size {
+    width : 15vw !important;
+    left: 60vw;
+  }
+}
